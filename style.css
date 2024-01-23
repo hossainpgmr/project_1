@@ -2,6 +2,11 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    
+}
+@font-face {
+    font-family: Behuda;
+    src: url(./Gellisto.ttf);
 }
 
 html {
@@ -19,7 +24,7 @@ body {
     width: 50rem;
     height: 50rem;
     background-color: transparent;
-    border-top: 1rem solid rgb(147, 116, 240);
+    border-top: 1rem solid #9374f0;
     border-radius: 0.5rem;
     display: flex;
     gap: 4.490rem;
@@ -91,3 +96,51 @@ body {
     100% {
         rotate: 0deg;
     }
+}
+.button button{
+    text-transform: capitalize;
+   border: 3.5px solid #a793e2;
+   border-radius: 5px;
+   box-shadow: rgba(226, 221, 221, 0.16) 0px 3px 6px, rgba(206, 198, 198, 0.23) 0px 3px 6px;
+   background: transparent;
+}
+.button button a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+   text-decoration: none;
+   color: #c9bbf3;
+   padding:1rem ;
+  
+ 
+} 
+
+
+/* button generate */
+
+
+.button button:hover{
+ border: 3px solid  #8560f3d7;
+color: #8560f3d7 ;
+box-shadow: rgba(212, 204, 204, 0.904) 0px 1px 8px, rgba(235, 203, 203, 0.911) 0px 1px 8px;
+animation: button 0.2s linear;
+
+}
+@keyframes button {
+    0%{
+        rotate: 20deg;
+    }
+    50%{
+        rotate: -20deg;
+    }
+    100%{
+     rotate: 20deg;
+    }
+}
+.button button a:hover{
+color: #9ebaeee5;
+font-size: 30px;
+font-family: Behuda;
+cursor: not-allowed
+}
