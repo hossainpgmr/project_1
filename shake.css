@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #191816;
+
+}
+button{
+    padding:  12px 30px;
+    border: 2.8px solid #8080f3;
+    text-align: center;
+    border-radius: 7px;
+    color: #8080f3;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+    background-color: transparent;
+}
+button:hover{
+color: #ee2b55ec;
+border: 2.5px solid #ee2b55ec;
+animation: button .2s linear ;
+
+}
+@keyframes button {
+   0%{
+    rotate: 20deg;
+
+   } 
+   50%{
+    rotate: -20deg;
+   }
+   100%{
+    rotate: 20deg;
+   }
+
+}
