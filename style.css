@@ -5,10 +5,19 @@
     
 }
 @font-face {
-    font-family: Behuda;
-    src: url(./Gellisto.ttf);
+    font-family: behuda;
+    src: url(./font/font.ttf);
 }
+ 
+@font-face {
+    font-family:custom_font ;
+    src: url(/font/Raleway-ExtraLight.ttf);
 
+}
+@font-face {
+    font-family: bold_font;
+    src: url(./font/Raleway-Medium.ttf);
+}
 html {
     font-size: 62.5%;
 }
@@ -97,6 +106,12 @@ body {
         rotate: 0deg;
     }
 }
+
+
+/* 
+button created */
+
+
 .button button{
     text-transform: capitalize;
    border: 3.5px solid #a793e2;
@@ -105,7 +120,7 @@ body {
    background: transparent;
 }
 .button button a{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: custom_font,bold_font,behuda ;
     font-size: 25px;
     font-weight: 500;
     text-transform: capitalize;
@@ -117,7 +132,7 @@ body {
 } 
 
 
-/* button generate */
+/* button hover */
 
 
 .button button:hover{
